@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SqliteUniversidad</string>
+    <string name="codigo">codigo</string>
+    <string name="nombre">Nombre</string>
+    <string name="programa">Programa</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="listado">Listado</string>
+
+    <string-array name="spinner_items">
+
+        <item>Sistemas</item>
+        <item>Mecánica</item>
+        <item>Industrial</item>
+        <item>Mecatrónica</item>
+
+
+    </string-array>
+
+    <string-array name="spinner_items_actulizados">
+
+        <item>Sistemas</item>
+        <item>Mecánica</item>
+        <item>Industrial</item>
+        <item>Mecatrónica</item>
+
+
+    </string-array>
+
+</resources>

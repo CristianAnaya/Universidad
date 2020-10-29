@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codigo del estudiante"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edtCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programa"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinnerActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:entries="@array/spinner_items_actulizados"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiene computador?"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/rgComputadoraActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbComputadorSiActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Si"
+            android:inputType="textPersonName" />
+
+        <RadioButton
+            android:id="@+id/rbComputadorNoActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="No"
+            android:inputType="textPersonName" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiene internet?"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/rgInternetActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbSiInternetActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Si"
+            android:inputType="textPersonName" />
+
+        <RadioButton
+            android:id="@+id/rbNoInternetActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="No"
+            android:inputType="textPersonName" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiene telefono?"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/rgTelefonoActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdSiCelularActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Si"
+            android:inputType="textPersonName" />
+        <RadioButton
+            android:id="@+id/rbNoCelularActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="No"
+            android:inputType="textPersonName" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar" />
+
+        <Button
+            android:id="@+id/btncancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
